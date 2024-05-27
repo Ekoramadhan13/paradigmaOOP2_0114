@@ -22,7 +22,14 @@ public:
     }
 };
 
-int main()
-{
-    
-}
+class pelajar : public orang {
+public:
+
+    pelajar(int pumur) :
+        orang(pumur)
+    {
+        cout << "pelajar dibuat\n" << endl;
+    }
+};
+
+
