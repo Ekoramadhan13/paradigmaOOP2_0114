@@ -16,6 +16,10 @@ public:
 };
 int main()
 {
-   
+	abstraksiklas ak;
+	ak.setxy("yogyakarta", "kampus");
+	ak.display();
+
+	return 0;
 }
 
