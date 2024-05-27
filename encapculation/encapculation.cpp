@@ -20,5 +20,7 @@ int main()
     lampurumah.setsaklarno(1, "lampu ruang tamu");
     lampurumah.setsaklarno(2, "lampu kamar tidur");
     lampurumah.setsaklarno(3, "lampu dapur");
+
+    return 0;
 }
 
